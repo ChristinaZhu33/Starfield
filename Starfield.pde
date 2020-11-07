@@ -82,5 +82,10 @@ class Oddball2Particle extends Particle{
     fill(255);
     ellipse((float)myX,(float)myY,10,10);
   }
+   public void move()
+  {
+    
+    myX = myX + (int)(Math.random()*7)-5;
+    myY = myY + (int)(Math.random()*7)-5;
+  }
 }
-
