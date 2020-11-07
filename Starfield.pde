@@ -7,12 +7,6 @@ void setup(){
   {
     dot[i] = new Particle(); 
     dot[0] = new OddballParticle();
-    dot[1] = new OddballParticle();  
-    dot[2] = new OddballParticle();  
-    dot[3] = new OddballParticle(); 
-    dot[4] = new OddballParticle(); 
-    dot[5] = new OddballParticle(); 
-    dot[6] = new Oddball2Particle();
     dot[7] = new Oddball2Particle();
 }
 }
